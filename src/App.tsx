@@ -11,7 +11,7 @@ import {
   BrowserCompatibility,
 } from "@zappar/zappar-react-three-fiber";
 
-import LaunchButtonModel from "./assets/button.glb";
+import LaunchButtonModel from "./assets/button/button.glb";
 import targetFile from "./assets/Business-Card.zpt";
 import rocketLaunchSound from "./assets/spacecraft-launch.mp3";
 import webIconTextureImg from "./assets/WebLaunch.png";
@@ -19,6 +19,7 @@ import facebookIconTextureImg from "./assets/Facebook.png";
 import phoneIconTextureImg from "./assets/Phone.png";
 
 import Background from "./Background";
+import Model from "./Model";
 import Rocket from "./Rocket";
 
 // Icons
@@ -191,6 +192,7 @@ const App = () => {
             {/* Setup Content */}
             <Icons />
             <Nametitle />
+            <Model rotation={[Math.PI / 2, 0, 0]} scale={[0.75, 0.75, 0.75]} />
             <Rocket buttonPressed={pressed} />
             <LaunchButton setPressed={setPressed} />
             {/* <Model /> */}
