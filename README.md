@@ -1,4 +1,4 @@
-# Ar-Business-Card
+# AR-Business-Card
 
 This application uses zappars image-tracking to track a business card and renders an interactive 3d scene on top of it.
 
@@ -37,7 +37,7 @@ For the best experience, launch this project on a mobile device by following the
 
 ## Target Image
 
-![Target Image](src\assets\Business-Card.png)
+![Target Image](Business-Card.png)
 
 ## Technologies
 
